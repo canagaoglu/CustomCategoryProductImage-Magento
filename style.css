@@ -1,0 +1,9 @@
+.products-grid .product-image { display:block; height: 245px; }
+.products-grid .product-image img { position:absolute; }
+.products-grid .product-image img.hover-img { display: none; }
+.products-grid .product-image img.regular-img { display: block; }
+.products-grid .product-image img.plus-img-with-hover { display: block; }
+.products-grid .product-image:hover img.hover-img { display: block; }
+.products-grid .product-image:hover img.regular-img { display: none; }
+.products-grid .product-image:hover img.plus-img-with-hover { display: none; }
+.products-grid .product-image img.hide-regular-img { display: none; }
